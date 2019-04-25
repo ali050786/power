@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS Document */
+.bulb p{
+	text-align:center;	
+	width:100%;
+	margin-top:10px;
+	font-size:18px;
+	}
+
+.icon_led{
+	background:url(../images/sprites-01.png) -18px -20px;
+	width:120px;
+	height:186px;
+	display:block;
+	}
+	
+.bulb {
+	float:left;
+	margin-left:20px;
+	}
+	
+.vercus{
+	height:152px;
+	width:74px;
+	background:url(../images/sprites-01.png) -477px -20px;
+	float:left;
+	margin-left:70px;
+	margin-top:25px;
+	margin-right:70px;
+	}
+	
+.icon_halo{
+	height:186px;
+	width:121px;
+	background:url(../images/sprites-01.png) -144px -20px;
+	}
+	
+.icon_inca{
+	height:186px;
+	width:121px;
+	background:url(../images/sprites-01.png) -269px -20px;
+	}
+	
+.icon_fluor{
+	height:186px;
+	width:84px;
+	background:url(../images/sprites-01.png) -393px -20px;
+	}
+
+.led_features:first-child{
+	padding-top:0px!important;
+	}
+	
+.led_features:last-child{
+	border-bottom:none;
+	}	
+
+.led_features{
+	display:table;
+	padding-bottom:25px;
+	padding-top:25px;
+	border-bottom:2px dashed #F96015;
+	float:left;
+	width:975px;
+	position:relative;
+	}
+	
+.led_features .heading{
+	width:100%;
+	text-align:center;
+	}
+	
+.led_features.saving{
+	height:385px;
+	
+	}	
+
+.saving_80{
+	position:absolute;
+	left:50%;
+	width:280px;
+	margin-left:-295px;
+	overflow:hidden;
+	height:192px;
+	bottom:50px;	
+	}
+	
+
+.hours_50000{
+	position:absolute;
+	left:50%;
+	width:262px;
+	margin-left:-285px;
+	overflow:hidden;
+	height:166px;
+	bottom:50px;	
+	}
+		
+.inner_50000{	
+	width:262px;	
+	height:166px;
+	background:url(../images/sprites-01.png) -309px -218px;		
+	}
+		
+.hours_graph{
+	position:absolute;
+	left:50%;
+	width:475px;
+	height:272px;
+	overflow:hidden;
+	}
+
+.inner_hours{
+	width:475px;
+	height:272px;
+	background:url(../images/sprites-01.png) -18px -823px;	
+	}
+
+.inner_80{
+	width:280px;
+	height:192px;
+	background:url(../images/sprites-01.png) -20px -212px;
+	}
+	
+.saving_graph{
+	position:absolute;
+	left:50%;
+	width:429px;	
+	overflow:hidden;
+	height:272px;
+	
+	}
+	
+.inner_graph{	
+	width:429px;	
+	height:272px;
+	background:url(../images/sprites-01.png) -18px -542px;
+	}
+	
+.data_icon{
+	width:110px;
+	float:left;
+	height:110px;
+	overflow:hidden;
+	}
+	
+.data_txt{	
+	float:left;
+	
+	width:840px;
+	padding-top:25px;
+	}
+
+
+.data_txt strong{
+	color:#F96015;
+	font-size:18px;
+	}	
+	
+.data_right{	
+	text-align:right;
+	margin-right:25px;
+	}
+	
+.data_left{	
+	text-align:left;
+	margin-left:25px;
+	}
+	
+.mercury{	
+	background:url(../images/sprites-01.png) -365px -405px;
+	width:110px;
+	height:110px;
+	}
+	
+.instant{	
+	background:url(../images/sprites-01.png) -250px -403px;
+	width:110px;
+	height:110px;
+	}
+	
+.dim{	
+	background:url(../images/sprites-01.png) -20px -404px;
+	width:110px;
+	height:110px;
+	}
+	
+.mcolors{	
+	background:url(../images/sprites-01.png) -135px -405px;
+	width:110px;
+	height:110px;
+	}
+
+@media screen and (max-width:1024px){
+
+.saving_80{
+	position:absolute;
+	left:0%;
+	width:280px;
+	margin-left:0px;
+	overflow:hidden;
+	height:192px;
+	bottom:50px;	
+	}
+	
+.saving_graph{
+	left:295px;
+	}
+	
+.led_features {
+    width: 725px;
+}
+	
+.vercus{
+	margin-left:30px;
+	margin-right:30px;
+	}
+	
+.hours_50000{
+	left:0%;
+	margin-left:0px;
+	}
+	
+.hours_graph{
+	left:300px;
+	}
+	
+.data_txt {
+ 
+    width: 582px;
+}
+	
+	}
+	
+@media screen and (max-width:768px){
+	
+.second_bulb{
+	clear:both;	
+	}
+	
+.bulb{
+	margin-bottom:15px;
+	}
+
+.saving_80{
+	position:absolute;
+	left:50%;
+	width:280px;
+	margin-left:-140px;
+	overflow:hidden;
+	height:192px;
+	bottom:50px;	
+	}
+	
+.saving_graph{
+	display:none
+	}
+	
+.led_features {
+    width: 100%;
+}
+	
+.vercus{
+	margin-left:30px;
+	margin-right:30px;
+	}
+	
+.hours_50000{
+	left:50%;
+	margin-left:-150px;
+	}
+	
+.hours_graph{
+	display:none;
+	}
+	
+
+.led_features .heading {
+    text-align: left;
+    width: 100%;
+}
+
+.data_icon{
+	display:none;
+	}
+
+
+.data_txt {
+    width: 100%;
+}
+	
+.data_left{
+	margin-left:0px;
+	text-align:left;
+	}
+	
+.data_right{
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	}
+	
+	
+	}
+	
+	
+@media screen and (max-width:768px){
+	.casestudy_thumb{
+		width:100%;
+		}
+	
+	}
+	

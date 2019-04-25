@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.featured_product{
+	top:-50px;	
+	}
+	
+.second_tabs{
+	top:-50px;	
+	}
+	
+.slider{
+	height:750px!important;}
+	 
+	 
+.overlay_color{
+	background:url(../images/overlay_bg.png) repeat-y 100%;
+	}
+	
